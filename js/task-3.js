@@ -40,10 +40,29 @@
 // console.log(someNum)
 
 
-let number = Number(prompt("paste number"))
-if (number % 2 === 0) {
-  alert(`pair number!`)
+// let number = Number(prompt("paste number"))
+// if (number % 2 === 0) {
+//   alert(`pair number!`)
+// }
+// else {
+//   alert(`not pair number`)
+// }
+
+
+let monthOfBirth = Number(prompt("number of month"));
+if (monthOfBirth === 12 || monthOfBirth === 1 || monthOfBirth === 2) {
+  console.log("winter");
 }
-else {
-  alert(`not pair number`)
+else if (monthOfBirth >= 3 && monthOfBirth <= 5 ) {
+  console.log("spring");
+  }
+
+else if (monthOfBirth >= 6 && monthOfBirth <= 8 ) {
+  console.log("summer");
 }
+  else if (monthOfBirth >= 9 && monthOfBirth <= 11 ) {
+  console.log("autumn");
+} else {
+  
+  console.log("wrong number");
+  }
