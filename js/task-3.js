@@ -49,20 +49,55 @@
 // }
 
 
-let monthOfBirth = Number(prompt("number of month"));
-if (monthOfBirth === 12 || monthOfBirth === 1 || monthOfBirth === 2) {
-  console.log("winter");
-}
-else if (monthOfBirth >= 3 && monthOfBirth <= 5 ) {
-  console.log("spring");
-  }
+// let monthOfBirth = Number(prompt("number of month"));
+// if (monthOfBirth === 12 || monthOfBirth === 1 || monthOfBirth === 2) {
+//   console.log("winter");
+// }
+// else if (monthOfBirth >= 3 && monthOfBirth <= 5 ) {
+//   console.log("spring");
+//   }
 
-else if (monthOfBirth >= 6 && monthOfBirth <= 8 ) {
-  console.log("summer");
-}
-  else if (monthOfBirth >= 9 && monthOfBirth <= 11 ) {
-  console.log("autumn");
-} else {
+// else if (monthOfBirth >= 6 && monthOfBirth <= 8 ) {
+//   console.log("summer");
+// }
+//   else if (monthOfBirth >= 9 && monthOfBirth <= 11 ) {
+//   console.log("autumn");
+// } else {
   
-  console.log("wrong number");
-  }
+//   console.log("wrong number");
+//   }
+
+// const subscribePackage = prompt("period pidpysky") ;
+// switch (subscribePackage) {
+//   case "day":
+//     console.log("1.99")
+//     break;
+//   case "week":
+//     console.log("5.99")
+//     break;
+//   case "month":
+//     console.log("10.99")
+//     break;
+//   case "year":
+//     console.log("100.99")
+//     break;
+//   default:
+//   console.log("wrong prise")
+  
+// }
+
+// let a = 0
+// let b = 100
+// for (let i = a; i <= b; i+=10) {
+//   console.log(i)
+// }
+
+// let userName = prompt("type your name");
+
+// if (userName.length > 7) {
+//   console.log(" long name");
+
+// }
+// else {
+//   console.log("short");
+// }
