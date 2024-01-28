@@ -14,7 +14,27 @@
 // // console.log(filterArray([12, 24, 8, 41, 76], 38)); // [41, 76]
 // // console.log(filterArray([12, 24, 8, 41, 76], 20)); // [24, 41, 76]
 
-const name = prompt("enter your name");
-const email = prompt("enter your email");
-const tel = prompt("enter your tel");
-alert(`користувач ${name} використовує пошту ${email} телефон ${tel}`);
+// const name = prompt("enter your name");
+// const email = prompt("enter your email");
+// const tel = prompt("enter your tel");
+// alert(`користувач ${name} використовує пошту ${email} телефон ${tel}`);
+
+// let price1 = Number(prompt("Вкажіть ціну за телевізор"))
+// let price2 = Number(prompt("вкажіть ціну за телефон"))
+// let price3 = Number(prompt("вкажіть ціну за пилосос"))
+
+// alert(`total price ${price1 + price2 + price3}`)
+
+
+// let monthNumber = Number(prompt("Скільки місяців має рік?"));
+// if (monthNumber === 12) {
+//   console.log("Вірно!");
+// }
+// else {
+//   console.log("Не знаєте? 12!");
+// }
+
+// // одне й те саме але тільки 2 умови
+
+// let someNum = monthNumber === 12 ? "Good" : "Bad";
+// console.log(someNum)
