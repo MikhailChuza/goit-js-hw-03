@@ -38,3 +38,12 @@
 
 // let someNum = monthNumber === 12 ? "Good" : "Bad";
 // console.log(someNum)
+
+
+let number = Number(prompt("paste number"))
+if (number % 2 === 0) {
+  alert(`pair number!`)
+}
+else {
+  alert(`not pair number`)
+}
